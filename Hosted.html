@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+  <!-- font awesome -->
+  <script src="script.js"></script>
+<style>
+
+.bgimage {
+    height:100vh;
+    background: url('http://communication.kenscio.net/imgproxy/img/2041351363/bgimg1.png');
+    background-size:cover;
+    position:relative;
+}
+/* text css above hero image*/
+.hero_title {
+    font-size:40px;
+    color: #000000;
+    line-height: 44px;
+}
+.hero_desc {
+    font-size: 40px;
+    line-height: 44px;
+    color: rebeccapurple;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+	.navbar-scrolled{background-color: red;
+	box-shadow: 0 3px 10px rgba(0,0,0,0.15)}
+.imageAboutPage {
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+   
+    .font16{font-size: 16px!important; line-height: 20px!important;padding-top: 30px;}
+    .font34{font-size: 30px!important; line-height: 34px!important;}
+    .ht{height:250px!important;}
+    .pt{padding-top: 20px!important;}
+    }
+    
+    @media only screen and (max-width: 480px) {
+        .font16{font-size: 16px!important; line-height: 20px!important;padding-top: 30px;}
+        .font34{font-size: 30px!important; line-height: 34px!important;}
+        .ht{height:250px!important;}
+        .pt{padding-top: 20px!important;}
+    }
+    .servicesText.card {
+        height: 280px;
+        cursor: pointer;
+      }
+    .servicesIcon {
+        font-size: 36px;
+        text-align: center;
+        width: 100%;
+    }
+    .card-title {
+        text-align: center;
+    }
+    .fb-icon:hover{
+    background: blue;
+}
+.tw-icon:hover {
+    background: pink;
+}
+    .servicesText:hover {
+        border: 1px solid #008000;
+    }
+
+    /* display background color black on navbar scroll */
+    
+    .navbarScroll.navbarDark {
+        background-color: black;
+    }
+</style>
+  
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a  class="" href="https://www.linkedin.com/in/suma-k-g-1a3882288/" target="_blank" style="color: black;text-decoration: none;">Suma K G</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" style="color: black;text-decoration: none;font-style: italic;" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: black;text-decoration: none;font-style: italic;" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: black;text-decoration: none;font-style: italic;" href="#services">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: black;text-decoration: none;font-style: italic;" href="#portfolio">Achievements</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: black;text-decoration: none;font-style: italic;" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                
+           
+        </div>
+		</div>
+    </nav>
+    <!-- main banner -->
+    <section class="bgimage ht" id="home">
+        <div class="container-fluid">
+            <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                <h2 class="hero_title font16">Hi, it's me Suma</h2>
+                <p class="hero_desc font34">I am a professional freelancer Web Developer in Banglore City</p>
+            </div>
+            </div>
+        </div>
+    </section>
+      <!-- about section-->
+    <section id="about">
+        <div class="container mt-4 pt-4">
+            <h1 class="text-center" style="color: red;">About Me</h1>
+            <div class="row mt-4">
+                <div class="col-lg-4">
+                    <a href="https://www.linkedin.com/in/suma-k-g-1a3882288/" target="_blank"><img src="http://communication.kenscio.net/imgproxy/img/2041351351/IMG_20230831_230902.jpg" class= "imageAboutPage" alt=""></a>
+                </div>
+
+                <div class="col-lg-8 pt">
+                    <ul>	
+                        <li>Designing and coding responsive, scalable email templates using Figma, Adobe Creative Suite, (HTML and CSS3) and (HTML, CSS3 and Email Studio).</li>
+                        <li>Develop and QA of email templates and A/B Testing as per the requirements using the HubSpot tool.</li>
+                        <li>Using the Litmus tool to test the email template for all the ESPs.</li>
+                        <li>PSD, Illustrator, XD, Zipline, Figma to HTML – Able to convert any design into s bug- free newsletter.</li>
+                        <li>Strong in developing Framework, Blocks, Email Templates, Email Messages using MJML
+                        and Email Studio and MAPP CMS.</li>
+                        <li>Creating dynamic content using Email AMP SCRIPT in the cloud (MAPP) platform to implement business requirements.</li>
+                        <li>Developed Exact Target Dynamic Content for different customers.</li>
+                        <li>Strong analytical skills with the ability to follow project standards and procedures.</li>
+                        <li>Experience in Scram Master for daily standard up, review the client requirement design and CRF files.</li>
+                    </ul>
+                        
+                    <div class="row mt-3">
+                        <div class="col-md-6">
+                            <ul style="font-weight: bold;">
+                                <li>Name: Suma K G</li>
+                                <li>Age: 25</li>
+                                <li>Occupation: Web Developer</li>
+
+                            </ul>
+                        </div>
+                      
+                    </div>
+                    <div class="row mt-3">
+                        <p> Completed B. Tech in the stream of ECE from BIT Institute of Technology (2016-2020).</p>
+                    </div>
+
+                    <!-- services section-->
+   
+                </div>
+            </div>
+		</div>
+    </section> 
+    <section id="services">
+        <div class="container">
+            <h1 class="text-center" style="color: red;">Technical Skills</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body ">
+                            <i class="fas servicesIcon"><img class="fb-icon" src="http://communication.kenscio.net/imgproxy/img/2041351352/download.png" width="14%"></i>
+                            <h4 class="card-title mt-3">HTML5</h4>
+                            <p class="card-text mt-3">HTML—“HyperText Markup Language”—is the language used to tell your web browser what each part of a website is. 
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class="fas servicesIcon"><img class="tw-icon" src="http://communication.kenscio.net/imgproxy/img/2041351353/download_(1).png" width="14%"></i>
+                            <h4 class="card-title mt-3">CSS</h4>
+                            <p class="card-text mt-3">CSS is the acronym of “Cascading Style Sheets”.
+
+                                CSS is a computer language for laying out and structuring web pages (HTML or XML).
+                                
+                                
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class="far servicesIcon"><img class="fb-icon" src="http://communication.kenscio.net/imgproxy/img/2041351354/javascript_logo.png" width="14%"></i>
+                            <h4 class="card-title mt-3">javascript</h4>
+                            <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
+                                Some quick example text to build on the card title and make up the bulk of the card's content.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+
+            
+        </div>
+    </section>
+    <!-- portfolio section-->
+    <section id="portfolio">
+        <div class="container mt-3">
+            <h1 class="text-center" style="color: red;">Achievements</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="http://communication.kenscio.net/imgproxy/img/2041351355/Mapp-Suma_K_G_(Basic)-1.png" alt="Card image" style="width:100%;height: 274px;">
+                        <div class="card-body">
+                            <h4 class="card-title">MAPP Basics </h4>
+                            <p class="card-text mt-4">MAPP Engage Basics in MAPP Platform (January/2022)</p>
+                            <div class="text-center mt-4">
+                                <a href="https://mapp.com/automation/" target="_blank" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="http://communication.kenscio.net/imgproxy/img/2041351356/Mapp-Suma_K_G_(Advanced)-1.png" alt="Card image" style="width:100%;height: 274px;">
+                        <div class="card-body">
+                            <h4 class="card-title">MAPP Advanced</h4>
+                            <p class="card-text mt-4">MAPP Engage Advanced in MAPP Platform (June/2022)</p>
+                            <div class="text-center mt-4">
+                                <a href="https://mapp.com/automation/" target="_blank" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="http://communication.kenscio.net/imgproxy/img/2041351357/SUMA_INTERNSHIP-1.png" alt="Card image" style="width:100%;height: 274px;">
+                        <div class="card-body">
+                            <h4 class="card-title">Web Developer internship</h4>
+                            <p class="card-text mt-4">Web Developer internship certificate in Ruminations Bangalore (April 2021)</p>
+                            <div class="text-center mt-4">
+                                <a href="https://www.ambitionbox.com/overview/rumination-labs-overview" target="_blank" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+		</div>
+    </section>
+    <!-- contact section-->
+    <section id="contact">
+        <div class="container mt-3 contactContent">
+            <h1 class="text-center" style="color: red;">Contact Me</h1>
+
+            <div class="row mt-4">
+                <div class="col-lg-6">
+                    <!-- to edit google map goto https://www.embed-map.com type your location, generate html code and copy the html  -->
+                    <div style="max-width:100%;overflow:hidden;color:red;width:500px;height:500px;"><div id="gmap-canvas" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Domlur,+Bengaluru,+Karnataka,+India&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="embed-ded-maphtml" href="https://www.bootstrapskins.com/themes" id="get-data-for-map">premium bootstrap themes</a><style>#gmap-canvas img{max-height:none;max-width:none!important;background:none!important;}</style></div>
+                </div>
+
+                <div class="col-lg-6">
+                    <!-- form fields -->
+                    <form>
+                        <input type="text" class="form-control form-control-lg" placeholder="Name">
+                        <input type="email" class="form-control mt-3" placeholder="Email">
+                        <input type="text" class="form-control mt-3" placeholder="Subject">
+                        <div class="mb-3 mt-3">
+                            <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Project Details"></textarea>
+                        </div>
+						<div id="input-wrapper">
+  <input type="text" name="phone" style="width:3.5em;padding-left:1.5em;font:inherit"><span style="margin-left:-3em;margin-right:0em;">+44</span>
+  <input id='number' onchange="this.value = '+44' + this.value" type="text">
+							
+</div>
+                    </form>
+                    <button type="button" class="btn btn-success mt-3">Contact Me</button>
+                    
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <script>
+		
+		document.getElementById("number").addEventListener('change', function(e){
+    e.target.value = '+44' + e.target.value;
+});
+        const navE1 = document.querySelector('.navbar');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY >= 56){
+                navE1.classList.add('navbar-scrolled');
+            }
+            else if(window.scrollY < 56) {
+                navE1.classList.remove('navbar-scrolled');  
+            }     
+        
+        
+        
+        })
+    </script>
+</body>
+</html>
